@@ -1,2 +1,4 @@
-# Actividades-SaraiLabradaPati-o-DW
-Este repositorio es creado para la asignatura de Desarrollo y diseño de aplicaciones web
+# Actividades Sarai Labrada 
+## Asignatura: Prog. Diseño de App
+## EBC - CONI 
+En este repositorio se encuentran todas las actividades diseñadas en la materia. 
