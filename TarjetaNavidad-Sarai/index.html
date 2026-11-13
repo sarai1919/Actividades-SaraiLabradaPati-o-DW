@@ -26,7 +26,7 @@
    <!-- Cover -->
    <div class="page active" id="page-0">
     <div class="float-container">
-     <img src="navidad.jpeg" alt="arbol de navidad" class="cover-img">
+     <img src="navidad.jpg" alt="arbol de navidad" class="cover-img">
     </div>
     <h1 class="cover-title">Feliz Navidad 2026 🎄</h1>
     <p class="cover-subtitle">Con todo mi cariño, ¡Felices fiestas!</p>
@@ -35,7 +35,79 @@
     </button>
    </div>
 
+<!-- Mensaje página 1-->
+ <div class="page" id="pagina1">
+    <div class="photo-circle">
+      <img class="photo-img" loading="lazy" src="corona.jpg" alt="navidad">
+    </div>
+    <p class="msg-text">En esta navidad te deseo lo más bonito para ti 🎁🎄✨</p>
+    <button id="btn-next-1" class="btn-secondary">
+      <span class="btn-text">Siguiente</span>
+    </button>
+   </div>
 
-</body>
+<!--Mensaje página 2-->
+ <div class="page" id="pagina2">
+    <h2 class="gallery-title">Una navidad llena de amor y momentos bonitos✨</h2>
+    <div class="gallery-grid">
+     <div class="gallery-item gold-border">
+      <img class="gallery-img" loading="lazy" src="a.jpg" alt="imagen de cascanueces">
+     </div>
+     <div class="gallery-item gold-border">
+      <img class="gallery-img" loading="lazy" src="b.jpg" alt="imagen de arbol">
+     </div>
+     <div class="gallery-item gold-border">
+      <img class="gallery-img" loading="lazy" src="c.jpg" alt="imagen de esferas navideñas">
+     </div>
+    </div>
+  
+    <p class="gallery-caption">Que la magia de la Navidad llene tu corazón de alegría ¡Feliz Navidad!
 
-</html>
+    </p>
+   </div>
+<!-- Boton para revelar un mensaje-->
+  <div class="page" id="pagina3">
+    <div class="float-container float">
+     <span class="heart-emoji">🎅🏻</span>
+    </div>
+    <p class="msg-text">Te deseo paz y mucha felicidad</p>
+    <button id="btn-reveal" class="btn-309ebc">
+      <span class="btn-text">Descubre tu mensaje para esta Navidad</span>
+    </button>
+   </div>
+
+   <!--Mensaje Final-->
+<div class="page" id="pagina4">
+    <div id="final-card" class="final-card">
+     <audio id="navidad-audio" src="audionavidad.mp3"></audio>
+     <div class="photo-circle gold-border final-photo">
+      <img class="photo-img" loading="lazy" src="galleta.jpg" alt="Imagen de galleta">
+     </div>
+     <h2 class="final-title">!Felices Fiestas¡</h2>
+     <p class="final-msg">Que esta navidad traiga mucha alegría y felicidad a tu hogar</p>
+     <button id="btn-audio-ebc" class="btn-heart">
+      <span id="ebc-audio-btn-text">💗</span>
+     </button>
+    </div>
+    <div id="confetti-container" class="confetti-container"></div>
+   </div>
+
+
+
+<!--Navegación de la tarjeta-->
+
+<nav class="nav-container" aria-label="Navegación de páginas">
+    <button id="btn-prev" class="btn-nav" aria-label="Anterior">
+      <i data-lucide="chevron-left" class="icon-nav"></i>
+    </button>
+    <div id="dots" class="dots-container"></div>
+    <button id="btn-next" class="btn-nav" aria-label="Siguiente">
+      <i data-lucide="chevron-right" class="icon-nav"></i>
+    </button>
+   </nav>
+  </div>
+
+
+  <script src="script.js"></script>
+    </body>
+    </html>
